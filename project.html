@@ -5,29 +5,77 @@
     <title>
         Restaurant Site
     </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="new1.css">
-    <script src="javas.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <script src="javas.js"></script>
+    <script src="https://kit.fontawesome.com/b1567ecfb7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-    <img id="logo" src="logo.jpg">
-    <nav id="nav_bar">
-        <div class="item"><a href="">Home</a></div>
-        <div class="item"><a href="">Services</a></div>
-        <div class="item"><a href="">FAQs</a></div>
-        <div class="item" id="side"><a href="">Contact Us</a></div>
-    </nav>
-    </header>
-    <section>
-        <img src="online-food.jpg">
-        <p>
-            <h1>FOOD PLANET RESTAURANT</h1>
-            We are now providing home delivery facilities.
-        </p>
-    </section>
+    <div id="yuv">
+        <header id="head">
+            <img id="logo" src="logo.jpg">
+            <nav id="nav_bar">
+                <div class="item"><a href="">Home</a></div>
+                <div class="item"><a href="">Services</a></div>
+                <div class="item"><a href="">Menu</a></div>
+                <div class="item" id="side"><a href="">Contact Us</a></div>
+            </nav>
+        </header>
+        <div id="name">
+            <h1><b>Food Planet Restaurant</b></h1>
+            <h3>We're Better... We're Tastier... We are Fresher... </h3>
+        </div>
+    </div>
+    <main>
+        <img src="online-food.jpg" id="online">
+        <div id="order">
+            <h3>Order Online</h3>
+            <p>We are now offering home deliveries.</p>
+            <button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+    </main>
+    <h1>Our Services</h1>
+    <div class="container">
+
+        <div class="box">
+            <h3>Catering</h3>
+            <i class="fas fa-utensils"></i>
+            <p>We are now also providing Catering services for family functions, events and many more.</p>
+        </div>
+        <div class="box">
+            <h3>Reservations</h3>
+            <i class="fas fa-chair"></i><i class="fas fa-chair"></i>
+            <p>You can reserve your seats just by sitting where ever you are.</p>
+        </div>
+    </div>
+    <h1>Our Menu</h1>
+    <div class="container">
+        <div class="menuitem"><img src="bur.jpg" class="img">
+            <h3>Burger<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+        <div class="menuitem"><img src="cho.jpg" class="img">
+            <h3>Chowmein<br>Rs.200</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+        <div class="menuitem"><img src="fri.jpg" class="img">
+            <h3>Fries<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menuitem"><img src="piz.jpg" class="img">
+            <h3>Pizza<br>Rs.200</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+        <div class="menuitem"><img src="roll.jpg" class="img">
+            <h3>Rolls<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+        <div class="menuitem"><img src="soup.jpg" class="img">
+            <h3>Soup<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+        </div>
+    </div>
 </body>
 
 </html>

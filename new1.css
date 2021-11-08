@@ -1,0 +1,133 @@
+body {
+    color: black;
+}
+
+#name {
+    padding-top: 100px;
+}
+
+#logo {
+    width: 7%;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+header {
+    background-color: rgba(63, 219, 240, 0.596);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav_bar {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+}
+
+#side {
+    padding-right: 30px;
+}
+
+#nav_bar div a {
+    padding: 15px;
+    margin: 12px;
+    font-size: 20px;
+}
+
+#nav_bar div a:hover {
+    font-size: 18px;
+    color: white;
+    background-color: rgb(73, 90, 247);
+    border-radius: 16px;
+    padding: 3px 18px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'El Messiri', sans-serif;
+}
+
+#yuv::before {
+    content: "";
+    background-image: url("fin.jpg");
+    position: absolute;
+    z-index: -1;
+    height: 50%;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#order {
+    text-align: center;
+    padding: 60px;
+    margin: 30px;
+}
+
+#online {
+    margin: 30px;
+    opacity: 0.8;
+    float: left;
+    height: 260px;
+    width: 400px;
+    padding-left: 60px;
+}
+
+#btn {
+    background-color: rgb(189, 52, 34);
+    border-radius: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin: 5px;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: white;
+    color:rgb(189, 52, 34);
+    font-size: 28px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container .box {
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(136, 223, 235, 0.322);
+}
+
+.menuitem {
+    padding: 30px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    width: 33.3%;
+    background-color: rgba(136, 223, 235, 0.322);
+}
+
+.img {
+    width:230px;
+    height:160px;
+}
