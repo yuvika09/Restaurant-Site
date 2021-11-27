@@ -11,19 +11,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
     <script src="javas.js"></script>
     <script src="https://kit.fontawesome.com/b1567ecfb7.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="yuv">
+    <div id="home">
         <header id="head">
             <img id="logo" src="logo.jpg">
             <nav id="nav_bar">
-                <div class="item"><a href="">Home</a></div>
-                <div class="item"><a href="">Services</a></div>
-                <div class="item"><a href="">Menu</a></div>
-                <div class="item" id="side"><a href="">Contact Us</a></div>
+                <div class="item"><a href="#home">Home</a></div>
+                <div class="item"><a href="#services">Services</a></div>
+                <div class="item"><a href="#ourmenu">Menu</a></div>
+                <div class="item" id="side"><a href="#cont">Contact Us</a></div>
             </nav>
         </header>
         <div id="name">
@@ -36,10 +37,10 @@
         <div id="order">
             <h3>Hurry Up! Order Now and get upto 25% off!</h3>
             <p>We are now offering home deliveries.</p>
-            <button id="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
+            <button class="btn">Order Now <i class="fas fa-shopping-cart" style="font-size: 17px;"></i></button>
         </div>
     </main>
-    <h1>Our Services</h1>
+    <h1 id="services">Our Services</h1>
     <div class="container">
 
         <div class="box">
@@ -57,46 +58,58 @@
             <p>You can reserve your seats just by sitting where ever you are.</p>
         </div>
     </div>
-    <h1>Our Menu</h1>
+    <h1 id="ourmenu">Our Menu</h1>
     <div class="container">
         <div class="menuitem"><img src="bur.jpg" class="img">
-            <h3>Burger<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Burger<br>Rs.100</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
         <div class="menuitem"><img src="cho.jpg" class="img">
-            <h3>Chowmein<br>Rs.200</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Chowmein<br>Rs.200</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
         <div class="menuitem"><img src="fri.jpg" class="img">
-            <h3>Fries<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Fries<br>Rs.100</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
     </div>
     <div class="container">
         <div class="menuitem"><img src="piz.jpg" class="img">
-            <h3>Pizza<br>Rs.200</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Pizza<br>Rs.200</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
         <div class="menuitem"><img src="roll.jpg" class="img">
-            <h3>Rolls<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Rolls<br>Rs.100</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
         <div class="menuitem"><img src="soup.jpg" class="img">
-            <h3>Soup<br>Rs.100</h3><button id="btn">Order Now <i class="fas fa-shopping-cart"
+            <h3>Soup<br>Rs.100</h3><button class="btn">Order Now <i class="fas fa-shopping-cart"
                     style="font-size: 17px;"></i></button>
         </div>
     </div>
     <footer>
-        <h1>Contact Details</h1>
         <div id="cont">
+            <h1>Contact Us</h1>
+            <label for="urname" class="form">Name: </label>
+            <input type="text" class="inp" id="urname" value=""><br>
+            <label for="email" class="form">Email Address: </label>
+            <input type="text" class="inp" id="email" value=""><br>
+            <label for="cntct" class="form">Contact No.: </label>
+            <input type="text" class="inp" id="cntct" value=""><br>
+            <label for="mess" class="form">Message: </label>
+            <input type="text" class="inp" id="mess" value=""><br>
+            <button class="btn" id="subbtn">Submit</button><br>
             <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
             <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
             <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
             <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <address>117/Q/387 Shashtri Nagar, Mumbai - 786543 <br> Contact No. 7836486312
+            </address>
         </div>
     </footer>
 
 </body>
-
+<!-- Contact info details -->
+<!-- If you have any queries related to the restaurant. Fill the following form, we will get back to you as soon as possible. -->
 </html>
