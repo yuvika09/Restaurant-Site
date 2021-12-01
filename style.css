@@ -64,7 +64,7 @@ h3 {
 
 #home::before {
     content: "";
-    background-image: url("htmltyme\img\fin.jpg");
+    background-image: url("/htmltyme/img/fin.jpg");
     position: absolute;
     z-index: -1;
     height: 50%;
