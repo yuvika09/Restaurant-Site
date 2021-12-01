@@ -21,12 +21,19 @@ header {
 }
 
 #nav_bar {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     float: right;
     justify-content: center;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+    color:black;
 }
 
 #side {
@@ -62,9 +69,7 @@ h3 {
     font-family: 'El Messiri', sans-serif;
 }
 
-#home::before {
-    content: "";
-    background-image: url("/htmltyme/img/fin.jpg");
+#background {
     position: absolute;
     z-index: -1;
     height: 50%;
