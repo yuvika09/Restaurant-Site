@@ -32,7 +32,7 @@
             <h3>We're Better... We're Tastier... We are Fresher... </h3>
         </div>
     </div>
-    <main>
+    <main id="contain">
         <img src="img\online-food.jpg" id="online">
         <div id="order">
             <h3>Hurry Up! Order Now and get upto 25% off!</h3>
@@ -45,14 +45,14 @@
 
         <div class="box">
             <a href="">
-                <h2>Catering</h2>
+                <h2 class="select">Catering</h2>
             </a>
             <i class="fas fa-utensils"></i>
             <p>We are now also providing Catering services for family functions, events and many more.</p>
         </div>
         <div class="box">
             <a href="">
-                <h2>Reservations</h2>
+                <h2 class="select">Reservations</h2>
             </a>
             <i class="fas fa-chair"></i><i class="fas fa-chair"></i>
             <p>You can reserve your seats just by sitting where ever you are.</p>
@@ -90,21 +90,22 @@
     <footer>
         <div id="cont">
             <h1>Contact Us</h1>
-            <label for="urname" class="form">Name: </label>
-            <input type="text" class="inp" id="urname" value=""><br>
-            <label for="email" class="form">Email Address: </label>
-            <input type="text" class="inp" id="email" value=""><br>
-            <label for="cntct" class="form">Contact No.: </label>
-            <input type="text" class="inp" id="cntct" value=""><br>
-            <label for="mess" class="form">Message: </label>
-            <input type="text" class="inp" id="mess" value=""><br>
+            <div id="info">
+                <div class="form">Name:<input type="text" class="inp" id="urname" value=""><br></div>
+                <div class="form">Email Address:<input type="text" class="inp" id="email" value=""><br></div>
+                <div class="form">Contact No.:<input type="text" class="inp" id="cntct" value=""><br></div>
+                <div class="form">Message:<input type="text" class="inp" id="mess" value=""><br></div>
+            </div>
             <button class="btn" id="subbtn">Submit</button><br>
-            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-            <address>117/Q/387 Shashtri Nagar, Mumbai - 786543 <br> Contact No. 7836486312
+            <div id="links">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <address>
+                117/Q/387 Shashtri Nagar, Mumbai - 786543 <br> Contact No. 7836486312
             </address>
         </div>
     </footer>
@@ -112,4 +113,5 @@
 </body>
 <!-- Contact info details -->
 <!-- If you have any queries related to the restaurant. Fill the following form, we will get back to you as soon as possible. -->
+
 </html>
