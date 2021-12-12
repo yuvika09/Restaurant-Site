@@ -10,12 +10,14 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
     text-align: center;
-    font-size: 55px;
+    font-size: 60px;
+    margin-top: 2%;
 }
 
 h2 {
@@ -25,8 +27,11 @@ h2 {
 h3 {
     text-align: center;
     font-family: 'El Messiri', sans-serif;
+    font-size: 25px;
 }
-
+p {
+    font-size: 23px;
+}
 #name {
     padding-top: 11%;
 }
@@ -188,12 +193,15 @@ footer {
     position: relative;
 }
 
+#det {
+    margin-bottom: 3%;
+}
+
 #info {
-    margin-left: 33%;
     display: flex;
     justify-content: end;
     flex-direction: column;
-    width: 380px;
+    width: 58%;
 }
 
 address {
